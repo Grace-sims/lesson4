@@ -74,4 +74,49 @@ t.forward (150)
 
 t.end_fill ()
 
+t.color ("#aba98e","#c9c7a1")
+t.begin_fill ()
+
+t.setheading (90)
+
+t.goto (270,-150)
+
+t.circle(70,180)
+
+t.end_fill ()
+
+t.penup ()
+t.goto (-267,-90)
+t.pendown ()
+
+t.setheading (0)
+
+t.color ("#aba98e")
+
+t.forward (233)
+
+t.penup ()
+t.goto (-236,-40)
+t.pendown ()
+
+t.forward (176)
+
+t.penup ()
+t.goto (-208,10)
+t.pendown ()
+
+t.forward (123)
+
+t.end_fill ()
+
+t.penup ()
+t.goto (-130,250)
+t.pendown ()
+
+t.color ("#fffb17")
+
+for x in range (50):
+    t.forward (80)
+    t.right (195)
+
 t.mainloop ()
